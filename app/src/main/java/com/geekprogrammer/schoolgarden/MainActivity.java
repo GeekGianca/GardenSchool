@@ -36,7 +36,10 @@ public class MainActivity extends AppCompatActivity {
 
                     return true;
                 case R.id.navigation_garden:
-
+                    fragment = new StepsFragment();
+                    transaction.replace(R.id.frameLayout, fragment);
+                    transaction.addToBackStack(null);
+                    transaction.commit();
                     return true;
             }
             return false;

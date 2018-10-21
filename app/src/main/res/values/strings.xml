@@ -23,4 +23,18 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="inner_steps_one_title">Pasos para elaborar una huerta.</string>
+    <string name="step_1">Paso 1: Preparar en terreno. </string>
+    <string name="data_s1">Primero hay que limpiar el lugar para que no haya vidrios, alambres, plásticos, etc. y colocar un cerco con madera o mallas de cinto. Días antes de sembrar se debe remover la tierra y nivelarla con el rastrillo, el día de la siembra o transplante se puede colocar una cantidad considerable de abono. </string>
+    <string name="step_2">Paso 2: Seleccionar las plantas a sembrar.</string>
+    <string name="data_s2">Analizando la capacidad y tamaño del terreno y las propiedades de este se deben seleccionar las plantas a sembrar. </string>
+    <string name="step_3">Paso 3: La siembra.</string>
+    <string name="data_s3">Se debe aprovechar bien el terreno. Las semillas grandes, fáciles de manejar y fuertes para germinar, se siembran directamente en el lugar donde crecerán. Las pequeñas se deben tratar con mayor cuidado.</string>
+    <string name="step_4">Paso 4: Transplante.</string>
+    <string name="data_s4">El transplante se hace cuando las plantas tienen tres o cuatro hojas. Se riega bien el almacigo, se sacan las plantas con la ayuda de una cuchara o una pinza delicada, se abren los agujeros y se transplanta la planta evitando desprender la tierra de las raíces. Se usa abono para tapar los hoyos. Se presiona la tierra junto a la planta con ambas manos para que queden firmes y se riega alrededor de las pequeñas plantas. </string>
+    <string name="step_5">Paso 5: Cuidados principales de una huerta</string>
+    <string name="data_s5">En la huerta es preciso prestarle algunos cuidados:</string>
+    <string name="item1">•	Riegos.</string>
+    <string name="item2">•	Trasplantes.</string>
+    <string name="item3">•	Proteger del sol fuerte al suelo y plantas.</string>
+    <string name="item4">•	Realizar podas y desbrotes</string>
 </resources>

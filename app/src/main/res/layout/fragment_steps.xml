@@ -31,6 +31,146 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
+            <TextView
+                android:layout_below="@+id/title"
+                android:id="@+id/info_1"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/step_1"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_below="@+id/info_1"
+                android:id="@+id/text1"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/data_s1"
+                android:textColor="@color/colorBlack"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_below="@+id/text1"
+                android:id="@+id/info_2"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/step_2"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_below="@+id/info_2"
+                android:id="@+id/text3"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/data_s2"
+                android:textColor="@color/colorBlack"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_below="@+id/text3"
+                android:id="@+id/info_3"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/step_3"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_below="@+id/info_3"
+                android:id="@+id/text4"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/data_s3"
+                android:textColor="@color/colorBlack"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_below="@+id/text4"
+                android:id="@+id/info_4"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/step_4"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_below="@+id/info_4"
+                android:id="@+id/text5"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/data_s4"
+                android:textColor="@color/colorBlack"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_below="@+id/text5"
+                android:id="@+id/info_6"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/step_5"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_below="@+id/info_6"
+                android:id="@+id/text6"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/data_s5"
+                android:textColor="@color/colorBlack"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_below="@+id/text6"
+                android:id="@+id/item1"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/item1"
+                android:textColor="@color/colorBlack"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_below="@+id/item1"
+                android:id="@+id/item2"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/item2"
+                android:textColor="@color/colorBlack"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_below="@+id/item2"
+                android:id="@+id/item3"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/item3"
+                android:textColor="@color/colorBlack"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_below="@+id/item3"
+                android:id="@+id/item4"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/item4"
+                android:textColor="@color/colorBlack"
+                android:textStyle="italic" />
+
         </RelativeLayout>
 
     </ScrollView>
