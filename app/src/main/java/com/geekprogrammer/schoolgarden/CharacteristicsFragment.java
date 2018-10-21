@@ -79,8 +79,6 @@ public class CharacteristicsFragment extends Fragment {
     }
 
     private void loadDatabase() {
-        plantList.clear();
-        plantList = helper.getPlants();
         adapter = new AdapterViewHolder(Utils.list, getActivity());
         adapter.notifyDataSetChanged();
         recyclerView.setAdapter(adapter);
