@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Huerta Escolar</string>
+    <string name="title_home">Objetivos</string>
+    <string name="title_dashboard">La Planta</string>
+    <string name="title_notifications">Caracteristicas</string>
+    <string name="title_garden">Huerta</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="inner_fragment">•	Brindar a los docentes y estudiantes la oportunidad interactuar a través de una APP con la huerta escolar de plantas medicinales y frutos comestibles para reconocer su importancia y propiedades.</string>
+    <string name="inner_fragment_two">•	Contribuir al crecimiento de los estudiantes relacionando los temas vistos de forma teórica con la práctica a través de la interacción con dispositivos móviles.</string>
+    <string name="inner_fragment_three">•	Favorecer la motivación de los estudiantes con nuevas estrategias didácticas basadas en el uso de las TIC para favorecer las competencias digitales. </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="inner_plants_title">Las Plantas</string>
+    <string name="inner_message_one">Las plantas son organismos vivos autosuficientes pertenecientes al mundo vegetal que pueden habitar en la tierra o en el agua (Ramos, 1999). Las plantas son de gran importancia para la vida humana dada su producción de oxígeno. De las plantas se pueden extraer medicinas curativas y letales venenos. </string>
+    <string name="inner_plants_subtitle">Partes de la planta</string>
+    <string name="inner_description">Las partes de la planta son descritas por Ruiz (2015) de la siguiente manera. </string>
+    <string name="inner_details_1">• La raíz: es el órgano que se encuentra debajo de la tierra, su función es sujetar la planta y absorber sales, minerales, y el agua del suelo. </string>
+    <string name="inner_details_2">• El tallo: es la parte opuesta de la raíz, crece en sentido vertical hacia la luz del sol. A partir de él se desarrollan las ramas en donde nacen las hojas, flores y frutos. </string>
+    <string name="inner_details_3">• Las hojas: es la parte de la planta encargada de realizar la fotosíntesis, así como la respiración y la transpiración vegetal. </string>
+    <string name="inner_details_4">• Las flores: son el órgano reproductor de la planta, a partir de ellas se producen los frutos y las semillas. </string>
+    <string name="inner_details_5">• Los frutos: el fruto se origina por el engrosamiento de las paredes del ovario o en su defecto del engrosamiento del receptáculo floral según sea el caso. </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="inner_steps_one_title">Pasos para elaborar una huerta.</string>
+</resources>

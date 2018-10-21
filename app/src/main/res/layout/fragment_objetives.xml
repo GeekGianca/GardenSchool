@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_garden"
+    tools:context=".ObjetivesFragment">
+
+    <RelativeLayout
+        android:background="#da000000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_gravity="center"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/title"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/title_home"
+                    android:textColor="@color/colorLight"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_below="@+id/title"
+                    android:id="@+id/info_1"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/inner_fragment"
+                    android:textColor="@color/colorLight"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_below="@+id/info_1"
+                    android:id="@+id/info_2"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/inner_fragment_two"
+                    android:textColor="@color/colorLight"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_below="@+id/info_2"
+                    android:id="@+id/info_3"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/inner_fragment_two"
+                    android:textColor="@color/colorLight"
+                    android:textStyle="italic" />
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

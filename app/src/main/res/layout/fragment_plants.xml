@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_flowers"
+    tools:context=".PlantsFragment">
+
+    <ScrollView
+        android:layout_centerInParent="true"
+        android:overScrollMode="always"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:isScrollContainer="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbars="vertical">
+
+        <RelativeLayout
+            android:scrollbars="vertical"
+            android:background="#b3ffffff"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/title"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                android:text="@string/inner_plants_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/title"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/ic_plants"/>
+
+            <TextView
+                android:layout_below="@+id/image"
+                android:id="@+id/info_1"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/inner_message_one"
+                android:textColor="@color/colorBlack"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_below="@+id/info_1"
+                android:id="@+id/subtitle"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold|italic"
+                android:text="@string/inner_plants_subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_below="@+id/image"
+                android:id="@+id/info_2"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/inner_message_one"
+                android:textColor="@color/colorBlack"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/image_two"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/subtitle"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/ic_parts_plants" />
+
+            <TextView
+                android:layout_below="@+id/image_two"
+                android:id="@+id/info_3"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/inner_description"
+                android:textColor="@color/colorBlack"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/info_3"
+                android:id="@+id/info_4"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/inner_details_1"
+                android:textColor="@color/colorBlack"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/info_4"
+                android:id="@+id/info_5"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/inner_details_2"
+                android:textColor="@color/colorBlack"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/info_5"
+                android:id="@+id/info_6"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/inner_details_3"
+                android:textColor="@color/colorBlack"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/info_6"
+                android:id="@+id/info_7"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/inner_details_4"
+                android:textColor="@color/colorBlack"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/info_7"
+                android:id="@+id/info_8"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/inner_details_5"
+                android:textColor="@color/colorBlack"
+                android:textStyle="italic" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
