@@ -33,7 +33,10 @@ public class MainActivity extends AppCompatActivity {
                     transaction.commit();
                     return true;
                 case R.id.navigation_notifications:
-
+                    fragment = new CharacteristicsFragment();
+                    transaction.replace(R.id.frameLayout, fragment);
+                    transaction.addToBackStack(null);
+                    transaction.commit();
                     return true;
                 case R.id.navigation_garden:
                     fragment = new StepsFragment();
